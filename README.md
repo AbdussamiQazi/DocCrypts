@@ -2,6 +2,8 @@
 
 Vercel App: https://doc-crypt-aptos.vercel.app
 
+YouTube Link: https://youtu.be/7lo-GgmLiFs?si=jtbt0lUM91pgIxM7
+
 https://github.com/user-attachments/assets/9118e453-0f00-403e-9389-ee7cd6b3d6b2
 
 ## Overview
