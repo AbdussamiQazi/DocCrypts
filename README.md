@@ -1,38 +1,91 @@
-## Create Aptos Dapp Boilerplate Template
+# Decentralized Document Management App
 
 Vercel App: https://doc-crypt-aptos.vercel.app
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation.
+https://github.com/user-attachments/assets/9118e453-0f00-403e-9389-ee7cd6b3d6b2
+
+## Overview
+A Web 3.0-powered app using *IPFS* and *Aptos blockchain* for *secure, **transparent, and **tamper-proof* document management, ensuring *data ownership, **privacy, and **verifiable authenticity*.
+
+---
+
+![image](https://github.com/user-attachments/assets/97271195-49c3-4b35-b9e6-326a1283891f)
 
 
-## The Boilerplate template provides:
-![image](https://github.com/user-attachments/assets/203889a4-90f6-4343-b7b0-7222cc02bd9e)
+## Problem Statement
+Centralized platforms like Google Docs face:
+- *Centralized Control:* Prone to breaches and lack of ownership.
+- *Privacy Risks:* Metadata/content analyzed without consent.
+- *Integrity Issues:* Mutable document history.
+- *Scalability Challenges:* Limited access in low-connectivity regions.
+- *No Cryptographic Guarantees:* Trust deficit.
+
+---
+
+## Objectives
+- *Decentralized, trustless platform* for document management.
+- Use *IPFS* for distributed storage.
+- Implement *Aptos blockchain* for immutable record-keeping.
+- Ensure *end-to-end privacy*, ownership, and integrity.
+- Enable *real-time secure collaboration*.
+
+---
+
+## Key Features
+- *Decentralized Storage:* Documents stored on *IPFS* with content hash for integrity.
+- *Immutable Audit Trails:* Blockchain-backed logs ensure authenticity.
+- *Secure Collaboration:* Cryptographic signatures and timestamps.
+- *User Ownership:* No third-party server dependency; full data control.
+- *Event Management:* Real-time notifications and milestone tracking.
+
+---
+
+## Tech Stack
+- *Web 3.0*: Peer-to-peer trustless network.
+- *IPFS*: Content-based decentralized storage.
+- *Aptos Blockchain*: Immutable metadata ledger.
+- *Move Language*: Modules for storage, events, and signatures.
+
+---
+
+![image](https://github.com/user-attachments/assets/2145ccaa-40c0-4c41-8f0b-c03d1d27f2d3)
 
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `move` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-  ![image](https://github.com/user-attachments/assets/d7ed051c-b2fe-476f-8c61-2c270b3260c3)
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
 
-### What tools the template uses?
+## Advantages Over Google Docs
+| *Feature*             | *Google Docs*                            | *Our App*                            |
+|-------------------------|-------------------------------------------|----------------------------------------|
+| *Data Ownership*      | Centralized, owned by Google              | Decentralized, user-owned              |
+| *Privacy*             | Metadata/content analyzed                 | Fully private, user-controlled         |
+| *Audit Trails*        | Mutable, editable                        | Immutable, blockchain-backed           |
+| *Integrity*           | No cryptographic guarantees               | Content hash verification (IPFS)       |
+| *Censorship Resistance*| Prone to policy changes                 | Decentralized and censorship-resistant |
+| *Global Accessibility*| Restricted in some regions               | IPFS nodes ensure global access        |
 
-- React framework
-- Vite development tool
-- shadcn/ui + tailwind for styling
-- Aptos TS SDK
-- Aptos Wallet Adapter
-- Node based Move commands
+---
 
-### What Move commands are available?
+## Implementation
+1. *Upload Document:* Hash stored on *IPFS*.
+2. *Record Metadata:* Stored on *Aptos blockchain*.
+3. *Invite Signers:* Cryptographic signatures added.
+4. *Immutable Logs:* Tracks all actions for transparency.
 
-The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
+---
 
-Some commands are built-in the template and can be ran as a npm script, for example:
+## Impact
+- *Security:* Eliminates data breaches.
+- *Transparency:* Blockchain ensures trust.
+- *Accessibility:* IPFS enables global reach.
+- *Cost Efficiency:* Reduces centralized infrastructure dependency.
 
-- `npm run move:init` - a command to initialize an account to publish the Move contract and to configure the development environment
-- `npm run move:publish` - a command to publish the Move contract
-- `npm run move:test` - a command to run Move unit tests
-- `npm run move:compile` - a command to compile the Move contract
-- `npm run deploy` - a command to deploy the dapp to Vercel
+---
 
-For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
+## Future Scope
+- *Smart Contracts:* For automated workflows.
+- *Multisig Wallets:* Collaborative ownership.
+- *New Use Cases:* Legal, healthcare, and academic documents.
+
+---
+
+## Conclusion
+A *secure, **decentralized, and **transparent* alternative to centralized platforms like Google Docs, leveraging *IPFS, **Aptos blockchain, and **Web 3.0* to redefine document management.
